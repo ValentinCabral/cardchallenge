@@ -129,7 +129,7 @@ span{
     }
 
     .card__info{
-        margin: auto 60px;
+        margin: auto;
     }
     
     .card__info-stats-container{
@@ -152,5 +152,22 @@ span{
         max-height: 220px;
         border-radius: 6px;
     }
+}
 
+@media screen and (max-width:400px){
+    .card__info{
+        margin: auto 60px;
+    }
+}
+
+@media screen and (max-width:360px){
+    .card__info{
+        margin: auto 40px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .card__info{
+        margin: auto 25px;
+    }
 }
