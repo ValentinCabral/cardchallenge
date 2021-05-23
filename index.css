@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-color: hsl(233, 47%, 7%);
     font-family: 'Inter' , sans-serif;
@@ -67,8 +72,9 @@ img{
     margin-right: 75px;
 }
 
-
-
+p{
+    margin-top: 20px;
+}
 
 h1{
     font-size: 40px;
@@ -112,18 +118,21 @@ span{
 
     .card__info{
         margin: 40px auto;
-        text-align: unset;
     }
     
 }
 
 @media screen and (max-width: 764px){
+
+    .card{
+        margin: 40px;
+    }
+    
     .card__info-stats-container{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        text-align: center;
     }
 
     .card__info-stats{
