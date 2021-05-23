@@ -129,7 +129,7 @@ span{
     }
 
     .card__info{
-        margin: auto;
+        margin: auto 60px;
     }
     
     .card__info-stats-container{
@@ -152,4 +152,5 @@ span{
         max-height: 220px;
         border-radius: 6px;
     }
+
 }
